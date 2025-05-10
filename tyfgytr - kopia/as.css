@@ -1,0 +1,147 @@
+body {
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+.postBody {
+  background-color: grey;
+
+  width: 60%;
+  height: 3000px;
+}
+
+.titleCard {
+  height: 400px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+p,
+h1,
+h2,
+h3 {
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+
+.postsDiv {
+  background-color: rgb(82, 82, 82);
+  width: 90%;
+  height: 70%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(10, 1fr);
+  gap: 5px;
+
+  padding: 5px 5px 5px 5px;
+  margin: auto;
+}
+
+.post {
+  background-color: grey;
+  width: 95%;
+  height: 100%;
+
+  margin: auto;
+  position: relative;
+}
+
+.createPostDiv {
+  width: 89.5%;
+  height: 300px;
+
+  background-color: rgb(82, 82, 82);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.crPostContent {
+  height: 90%;
+  width: 95%;
+
+  background-color: grey;
+}
+
+.titleInput {
+  display: block;
+  margin: auto;
+
+  margin-top: -15px;
+  margin-bottom: 10px;
+
+  border-radius: 5px;
+  border-style: none;
+}
+
+
+#descriptionInput {
+  resize: none;
+  box-sizing: border-box;
+
+  height: 9vh;
+  width: 80%;
+
+  display: block;
+  margin: auto;
+
+  margin-top: -15px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.postButton {
+  background-color: rgb(1, 111, 255);
+  display: block;
+  margin: auto;
+
+  width: 300px;
+  height: 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-style: none;
+}
+
+.postButton:hover {
+  opacity: 0.7;
+}
+
+.postButton:active {
+  opacity: 0.5;
+}
+
+.idParag {
+  text-align: right;
+  margin-right: 12px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.timeParag {
+  text-align: left;
+  margin-left: 12px;
+
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  position: absolute;
+  bottom: 0;
+}
+
+.descParag {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}

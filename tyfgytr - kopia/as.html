@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="icons/lockedIn.png" />
+    <title>Board of Posts - Post anything.</title>
+    <link rel="stylesheet" href="as.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@200&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <div class="postBody">
+      <div class="titleCard">
+        <h1>PostFlix™</h1>
+        <p><a href="https://www.microsoft.com/sv-se/">About us</a> - <a
+            href="https://www.microsoft.com/sv-se/">Open source media</a> - <a
+            href="https://www.microsoft.com/sv-se/">Blog</a></p>
+        <h3>Post incognito, identity free! - <strong>Go wild.</strong></h3>
+      </div>
+      <div class="createPostDiv">
+        <div class="crPostContent">
+          <h3>Title</h3>
+          <input type="text" class="titleInput">
+          <h3>Description</h3>
+          <textarea name="description" id="descriptionInput"></textarea>
+          <button class="postButton">Post</button>
+        </div>
+      </div>
+      <h1>Board Of Posts</h1>
+      <div class="postsDiv"></div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.4/dist/umd/supabase.min.js"></script>
+    <script src="dsd.js"></script>
+  </body>
+</html>
